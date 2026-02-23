@@ -1,0 +1,94 @@
+body {
+  background-color: #8193f1;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 40px;
+}
+
+#encabezado {
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #5c6fc4;
+  color: white;
+}
+
+#que-es {
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: white;
+}
+
+#tipos {
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: white;
+}
+
+#usos {
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: white;
+}
+
+#historia {
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: white;
+}
+
+#pie {
+  text-align: center;
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 15px;
+  background-color: #5c6fc4;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #3a4a9e;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  color: #5c6fc4;
+}
+
+h4 {
+  font-size: 1rem;
+  font-style: italic;
+  color: #666;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+img {
+  width: 500px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+hr {
+  margin: 20px 0;
+}
