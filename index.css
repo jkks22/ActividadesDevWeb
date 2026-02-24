@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 body {
   background-color: #6c7fe8;
@@ -9,7 +8,7 @@ body {
   padding: 30px 80px;
 }
 
-/* ── ENCABEZADO ── */
+
 #encabezado {
   text-align: center;
   border: none;
@@ -35,7 +34,7 @@ body {
   font-weight: 300;
 }
 
-/* ── SECCIONES GENERALES ── */
+
 #que-es, #tipos, #usos, #historia {
   margin-top: 22px;
   border: none;
@@ -51,7 +50,7 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
-/* ── VIDEO ── */
+
 #video {
   margin-top: 22px;
   border: none;
@@ -79,7 +78,6 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* ── PIE ── */
 #pie {
   text-align: center;
   margin-top: 22px;
@@ -99,7 +97,6 @@ body {
   letter-spacing: 1px;
 }
 
-/* ── TIPOGRAFÍA ── */
 h1 {
   font-size: 3rem;
   margin: 0;
@@ -134,7 +131,6 @@ p {
   font-weight: 300;
 }
 
-/* ── IMÁGENES ── */
 img {
   width: 480px;
   margin: 20px 0;
@@ -148,7 +144,6 @@ img:hover {
   transform: scale(1.02);
 }
 
-/* ── BOTONES ── */
 button {
   background: linear-gradient(135deg, #6c7fe8, #4a5abf);
   color: white;
