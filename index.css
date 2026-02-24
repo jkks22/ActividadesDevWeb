@@ -1,31 +1,60 @@
 body {
   background-color: #8193f1;
   font-family: 'Times New Roman', Times, serif;
-  margin: 40px;
+  margin: 0;
+  padding: 20px 60px;
 }
 
 #encabezado {
   text-align: center;
   border: 2px solid white;
   border-radius: 12px;
-  padding: 20px;
-  background-color: #5c6fc4;
+  padding: 30px 20px;
+  background-color: #3a4a9e;
   color: white;
+  margin-bottom: 20px;
+}
+
+#encabezado p {
+  margin: 5px 0 0 0;
+  font-size: 1.1rem;
+  color: #d0d8ff;
 }
 
 #que-es {
   margin-top: 20px;
   border: 2px solid white;
   border-radius: 12px;
-  padding: 20px;
+  padding: 25px 30px;
   background-color: white;
+}
+
+#video {
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 25px 30px;
+  background-color: #3a4a9e;
+  color: white;
+  text-align: center;
+}
+
+#video h2 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#video iframe {
+  border-radius: 10px;
+  max-width: 100%;
 }
 
 #tipos {
   margin-top: 20px;
   border: 2px solid white;
   border-radius: 12px;
-  padding: 20px;
+  padding: 25px 30px;
   background-color: white;
 }
 
@@ -33,7 +62,7 @@ body {
   margin-top: 20px;
   border: 2px solid white;
   border-radius: 12px;
-  padding: 20px;
+  padding: 25px 30px;
   background-color: white;
 }
 
@@ -41,7 +70,7 @@ body {
   margin-top: 20px;
   border: 2px solid white;
   border-radius: 12px;
-  padding: 20px;
+  padding: 25px 30px;
   background-color: white;
 }
 
@@ -50,13 +79,19 @@ body {
   margin-top: 20px;
   border: 2px solid white;
   border-radius: 12px;
-  padding: 15px;
-  background-color: #5c6fc4;
+  padding: 18px;
+  background-color: #3a4a9e;
   color: white;
 }
 
+#pie h4 {
+  color: white;
+  font-style: normal;
+  margin: 0;
+}
+
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   margin: 0;
 }
 
@@ -64,11 +99,13 @@ h2 {
   font-size: 1.8rem;
   color: #3a4a9e;
   margin-top: 0;
+  border-left: 4px solid #8193f1;
+  padding-left: 10px;
 }
 
 h3 {
-  font-size: 1.3rem;
-  margin-top: 15px;
+  font-size: 1.2rem;
+  margin-top: 18px;
   color: #5c6fc4;
 }
 
@@ -80,15 +117,20 @@ h4 {
 
 p {
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.7;
+  color: #333;
 }
 
 img {
   width: 500px;
   margin: 20px 0;
-  border-radius: 8px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: block;
 }
 
 hr {
   margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
 }
